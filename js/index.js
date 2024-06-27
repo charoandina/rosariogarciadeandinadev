@@ -242,8 +242,26 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     
     emailjs.sendForm('service_qcqsot5', 'template_vpgqin6', this)
       .then(function() {
-        alert('Correo enviado con éxito!');
+        Swal.fire({
+            icon: "success",
+            title: "¡Formulario enviado!",
+            text: "¡Me pondré en contacto contigo a la brevedad!",
+            customClass: {
+              popup: 'custom-alert',
+              confirmButton: 'custom-button'
+            }
+          });
+        document.getElementById('contact-form').reset();
       }, function(error) {
-        alert('Error al enviar el correo:', error);
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Algo salió mal",
+            footer: error,
+            customClass: {
+              popup: 'custom-alert',
+              confirmButton: 'custom-button'
+            }
+          });
       });
   });

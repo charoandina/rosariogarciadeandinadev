@@ -352,7 +352,30 @@ form button:hover{
     background-color: var(--title-color);
     color: var(--subtitle-color);
 }
+/* FORM ALERT */
 
+.custom-alert {
+    background-color: var(--subtitle-color) !important;
+    border: 1px solid var(--title-color) !important;
+    border-radius: 0 !important;
+    color: var(--title-color);
+}
+
+/* Estilo personalizado para el botón */
+.custom-button {
+    background-color: var(--title-color) !important;
+    color: var(--subtitle-color) !important;
+    border: 1px solid var(--subtitle-color) !important;
+    padding: 10px 20px !important;
+    cursor: pointer !important;
+    transition: .5s !important;
+}
+
+.custom-button:hover {
+    background-color: var(--subtitle-color) !important;
+    border: 1px solid var(--title-color) !important;
+    color: var(--title-color) !important;
+}
 
 /* NAVBAR */
 

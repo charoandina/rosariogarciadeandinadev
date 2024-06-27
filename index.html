@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
     (function(){
@@ -84,13 +85,13 @@
                 <h3>Completa el formulario y te responderé a la brevedad</h3>
                 <form id="contact-form">
                     <label for="">Nombre</label>
-                    <input type="text" class="roboto-mono-regular" name="name" id="name">
+                    <input type="text" class="roboto-mono-regular" name="name" id="name" required>
                     <label for="">E-mail</label>
-                    <input type="email" class="roboto-mono-regular" name="email" id="email">
+                    <input type="email" class="roboto-mono-regular" name="email" id="email" required>
                     <label for="">Asunto</label>
-                    <input type="text" class="roboto-mono-regular" name="subject" id="subject">
+                    <input type="text" class="roboto-mono-regular" name="subject" id="subject" required>
                     <label for="">Mensaje</label>
-                    <textarea class="roboto-mono-regular" name="message" id="message"></textarea>
+                    <textarea class="roboto-mono-regular" name="message" id="message" required></textarea>
                     <button class="roboto-mono-bold" id="button" type="submit">Enviar</button>
                 </form>
             </div>

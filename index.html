@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+    (function(){
+        emailjs.init("rNO0ex7xKmJ_ChsfY"); // Sustituye con tu ID de usuario de EmailJS
+    })();
+    </script>
 </head>
 <body class="roboto-mono-regular">
 
@@ -76,7 +82,7 @@
             <div class="contact-container hidden" id="contact-page">
                 <h2 class="subtitle">Contacto</h2>
                 <h3>Completa el formulario y te responderé a la brevedad</h3>
-                <form action="https://formsubmit.co/rosario.garciadea@gmail.com" method="POST">
+                <form id="contact-form">
                     <label for="">Nombre</label>
                     <input type="text" class="roboto-mono-regular" name="name" id="name">
                     <label for="">E-mail</label>
@@ -86,9 +92,6 @@
                     <label for="">Mensaje</label>
                     <textarea name="" id="" class="roboto-mono-regular" name="message" id="message"></textarea>
                     <button class="roboto-mono-bold" id="button" type="submit">Enviar</button>
-                
-                    <input type="hidden" name="_next" value="https://charoandina.github.io/rosariogarciadeandinadev/">
-                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
         </div>

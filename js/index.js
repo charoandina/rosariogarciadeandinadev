@@ -237,3 +237,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // CONTACT FORM
 
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    emailjs.sendForm('service_qcqsot5', 'template_vpgqin6', this)
+      .then(function() {
+        alert('Correo enviado con éxito!');
+      }, function(error) {
+        alert('Error al enviar el correo:', error);
+      });
+  });

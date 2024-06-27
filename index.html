@@ -84,13 +84,13 @@
                 <h2 class="subtitle">Contacto</h2>
                 <h3>Completa el formulario y te responderé a la brevedad</h3>
                 <form id="contact-form">
-                    <label for="">Nombre</label>
+                    <label for="name">Nombre</label>
                     <input type="text" class="roboto-mono-regular" name="name" id="name" required>
-                    <label for="">E-mail</label>
+                    <label for="email">E-mail</label>
                     <input type="email" class="roboto-mono-regular" name="email" id="email" required>
-                    <label for="">Asunto</label>
+                    <label for="subject">Asunto</label>
                     <input type="text" class="roboto-mono-regular" name="subject" id="subject" required>
-                    <label for="">Mensaje</label>
+                    <label for="message">Mensaje</label>
                     <textarea class="roboto-mono-regular" name="message" id="message" required></textarea>
                     <button class="roboto-mono-bold" id="button" type="submit">Enviar</button>
                 </form>
@@ -98,23 +98,28 @@
         </div>
     </div>
 
+    <!--TIMELINE IMG-->
     <div class="timeline-container hidden">
         <video src="img/timeline.mp4" autoplay muted playsinline ></video>
     </div>
 
+    <!--NAVBAR SECTION-->
     <div class="navbar-container">
         <div class="navbar">
-            <p data-target="home-page" class="active">Home</p>
-            <p data-target="projects-page">Proyectos</p>
-            <p data-target="experience-page">Experiencia</p>
-            <p data-target="contact-page">Contacto</p>
+            <p data-target="home-page" class="active" id="nav-home">Home</p>
+            <p data-target="projects-page" id="nav-projects">Proyectos</p>
+            <p data-target="experience-page" id="nav-experience">Experiencia</p>
+            <p data-target="contact-page" id="nav-contact">Contacto</p>
         </div>
-        <div>
-            <p>EN</p>
+        <!--CHOOSE LANGUAGE-->
+        <div class="language">
+            <p id="translate-en">EN</p>
+            <p id="translate-es" style="display: none;">ES</p>
         </div>
     </div>
 
 </div>
+
 
 
 <!-- Pop-up container -->

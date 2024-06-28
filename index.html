@@ -23,18 +23,18 @@
 </head>
 <body class="roboto-mono-regular">
 
-<!-- <span id="mousepointer"></span>
--->
+<span id="mousepointer"></span>
+
 <div class="container">
     <div class="container-flex">
         <div class="info-container">
             <div class="title-container">
-                <h1>Rosario García de Andina</h1>
-                <h2>Desarrolladora & Diseñadora</h2>
+                <h1>Rosario García <br class="br-title"> de Andina</h1>
+                <h2 id="job-title">Desarrolladora & Diseñadora</h2>
             </div>
             
             <div class="text-projects">
-                <h3>Visita mis redes sociales para más contenido</h3>
+                <h3 id="social-heading">Visita mis redes sociales para más contenido</h3>
                 <div class="icons-projects">
                     <a href="https://www.linkedin.com/in/rosario-garcia-de-andina" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     <a href="https://www.behance.net/rosariogarcia7" target="_blank"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
@@ -46,24 +46,24 @@
         <div class="page-container">
             <!--HOME SECTION-->
             <div class="aboutme-container" id="home-page">
-                <p>Desarrolladora web y diseñadora de interfaces de usuario (UX/UI) de Argentina, nacida en 1996. Tengo un sólido dominio de HTML, CSS, JavaScript y React, lo que me permite crear sitios web interactivos y dinámicos. Además, mi pasión por el diseño se refleja en cada proyecto, siempre buscando ofrecer experiencias de usuario intuitivas y atractivas. Soy una persona curiosa y autodidacta, siempre en busca de nuevos conocimientos y tecnologías para seguir creciendo profesionalmente.</p>
+                <p id="aboutme-text">Desarrolladora web y diseñadora de interfaces de usuario (UX/UI) de Argentina, nacida en 1996. Tengo un sólido dominio de HTML, CSS, JavaScript y React, lo que me permite crear sitios web interactivos y dinámicos. Además, mi pasión por el diseño se refleja en cada proyecto, siempre buscando ofrecer experiencias de usuario intuitivas y atractivas. Soy una persona curiosa y autodidacta, siempre en busca de nuevos conocimientos y tecnologías para seguir creciendo profesionalmente.</p>
             </div>
 
             <!--PROJECTS SECTION-->
             <div class="projects-container hidden" id="projects-page">
-                <h2 class="subtitle" style="padding-right: 20px;">Proyectos</h2>
+                <h2 class="subtitle"  id="projects-subtitle">Proyectos</h2>
                 <div class="projects" id="projects"></div>
             </div>
 
             <!--EXPERIENCE SECTION-->
             <div class="experience-container hidden" id="experience-page">
-                <h2 class="subtitle">Experiencia</h2>
+                <h2 class="subtitle" id="experience-subtitle">Experiencia</h2>
                 <div class="company-experience">
                     <div class="company-info">
                         <h3>52North - Frontend Web Developer</h3>
-                        <h4>Febrero 2024 - Actualidad</h4>
+                        <h4 id="52north-date">Febrero 2024 - Actualidad</h4>
                         <h5>Remoto - Paises Bajos</h5>
-                        <p>Creo interfaces de usuario atractivas y funcionales para aplicaciones web especializadas. Me encargo de diseñar y desarrollar la parte visible de los sistemas, utilizando HTML, CSS y JavaScript para asegurar una experiencia de usuario intuitiva y efectiva.</p>
+                        <p id="52north-description">Creo interfaces de usuario atractivas y funcionales para aplicaciones web especializadas. Me encargo de diseñar y desarrollar la parte visible de los sistemas, utilizando HTML, CSS y JavaScript para asegurar una experiencia de usuario intuitiva y efectiva.</p>
                     </div>
                     <i class="fa fa-circle-thin" aria-hidden="true"></i>
                 </div>
@@ -71,9 +71,9 @@
                 <div class="company-experience">
                     <div class="company-info">
                         <h3>Freelance - Frontend Web Developer</h3>
-                        <h4>Agosto 2022 - Actualidad</h4>
+                        <h4 id="freelance-date">Agosto 2022 - Actualidad</h4>
                         <h5>Remoto - Argentina</h5>
-                        <p>Experiencia en diseño y desarrollo integral de páginas web. Desde la conceptualización del diseño y la estructura hasta la implementación completa de la funcionalidad, asegurando cumplir con las especificaciones detalladas por el cliente.</p>
+                        <p id="freelance-description">Experiencia en diseño y desarrollo integral de páginas web. Desde la conceptualización del diseño y la estructura hasta la implementación completa de la funcionalidad, asegurando cumplir con las especificaciones detalladas por el cliente.</p>
                     </div>
                     <i class="fa fa-circle-thin" aria-hidden="true"></i>
                 </div>
@@ -81,8 +81,8 @@
 
             <!--CONTACT SECTION-->
             <div class="contact-container hidden" id="contact-page">
-                <h2 class="subtitle">Contacto</h2>
-                <h3>Completa el formulario y te responderé a la brevedad</h3>
+                <h2 class="subtitle" id="contact-subtitle">Contacto</h2>
+                <h3 id="contact-text">Completa el formulario y te responderé a la brevedad</h3>
                 <form id="contact-form">
                     <label for="name">Nombre</label>
                     <input type="text" class="roboto-mono-regular" name="name" id="name" required>
@@ -96,11 +96,6 @@
                 </form>
             </div>
         </div>
-    </div>
-
-    <!--TIMELINE IMG-->
-    <div class="timeline-container hidden">
-        <video src="img/timeline.mp4" autoplay muted playsinline ></video>
     </div>
 
     <!--NAVBAR SECTION-->
@@ -119,7 +114,6 @@
     </div>
 
 </div>
-
 
 
 <!-- Pop-up container -->

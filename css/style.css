@@ -287,7 +287,8 @@ h1 {
     flex-direction: row;
     align-items: center;
     padding-right: 50px;
-    margin-top: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .company-experience i{
@@ -489,5 +490,8 @@ form button:hover{
     }
     #aboutme-text{
         text-align: right;
+    }
+    form{
+        margin-right: 0;
     }
 }

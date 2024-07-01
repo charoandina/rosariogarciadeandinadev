@@ -416,7 +416,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 navHome: "Home",
                 navProjects: "Projects",
                 navExperience: "Experience",
-                navContact: "Contact"
+                navContact: "Contact",
+                formName: "Name",
+                formEmail: "Email",
+                formSubject: "Subject",
+                formMessage: "Message",
+                formButton: "Send"
             },
             es: {
                 jobTitle: "Desarrolladora & Diseñadora",
@@ -433,7 +438,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 navHome: "Home",
                 navProjects: "Proyectos",
                 navExperience: "Experiencia",
-                navContact: "Contacto"
+                navContact: "Contacto",
+                formName: "Nombre",
+                formEmail: "Email",
+                formSubject: "Asunto",
+                formMessage: "Mensaje",
+                formButton: "Enviar"
             }
         };
 
@@ -452,5 +462,10 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("nav-projects").textContent = translations[language].navProjects;
         document.getElementById("nav-experience").textContent = translations[language].navExperience;
         document.getElementById("nav-contact").textContent = translations[language].navContact;
+        document.getElementById("form-name").textContent = translations[language].formName;
+        document.getElementById("form-email").textContent = translations[language].formEmail;
+        document.getElementById("form-subject").textContent = translations[language].formSubject;
+        document.getElementById("form-message").textContent = translations[language].formMessage;
+        document.getElementById("button").textContent = translations[language].formButton;
     }
 });

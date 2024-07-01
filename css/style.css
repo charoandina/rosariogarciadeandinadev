@@ -339,13 +339,14 @@ form{
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: center;
+    align-items: flex-end;
     margin-top: 40px;
+    margin-right: 40px;
 }
 
 input, textarea{
     margin-bottom: 15px;
-    width: 35%;
+    width: 40%;
     height: 30px;
     margin-top: 4px;
     padding: 15px 5px;

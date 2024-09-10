@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link: `<a href="https://gameover-blush.vercel.app/" target=_blank>View project</a>`
         },
         {
-            title: "Quiromancia Astrologia",
+            title: "Palmistry Astrology",
             description: "Interactive web application that allows users to explore and obtain palm readings. This application uses advanced JavaScript techniques to provide a fun and educational experience about palmistry.",
             images: ["img/handpalm1.png", "img/handpalm2.png", "img/handpalm3.png", "img/handpalm4.png"],
             languages: `
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link: `<a href="https://charoandina.github.io/elclubdelagula/" target=_blank>View project</a>`
         },
         {
-            title: "Invitación de Casamiento",
+            title: "Wedding Invitation",
             description: "The page is designed to be an information hub for guests, providing all necessary details about the event in an elegant and accessible manner: stylish design, integrated map, photo gallery.",
             images: ["img/casamiento1.png", "img/casamiento2.png", "img/casamiento3.png", "img/casamiento4.png"],
             languages: `
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link: `<a href="https://casamientomartuynico.netlify.app/" target=_blank>View project</a>`
         },
         {
-            title: "Cosmos - Astrología",
+            title: "Cosmos - Astrology",
             description: "Interactive web application that offers users an immersive experience in space. The application provides information about different celestial bodies and astronomical events, presented in a visual and attractive manner.",
             images: ["img/cosmos1.png", "img/cosmos2.png", "img/cosmos3.png", "img/cosmos4.png"],
             languages: `
@@ -421,7 +421,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 formEmail: "Email",
                 formSubject: "Subject",
                 formMessage: "Message",
-                formButton: "Send"
+                formButton: "Send",
+                northLocation: "Remote - Netherlands",
+                freelanceLocation: "Remote - Argentina"
             },
             es: {
                 jobTitle: "Desarrolladora & Diseñadora",
@@ -443,7 +445,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 formEmail: "Email",
                 formSubject: "Asunto",
                 formMessage: "Mensaje",
-                formButton: "Enviar"
+                formButton: "Enviar",
+                northLocation: "Remoto - Paises Bajos",
+                freelanceLocation: "Remoto - Argentina"
             }
         };
 
@@ -467,5 +471,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("form-subject").textContent = translations[language].formSubject;
         document.getElementById("form-message").textContent = translations[language].formMessage;
         document.getElementById("button").textContent = translations[language].formButton;
+        document.getElementById("52northlocation").textContent = translations[language].northLocation;
+        document.getElementById("freelancelocation").textContent = translations[language].freelanceLocation;
     }
 });

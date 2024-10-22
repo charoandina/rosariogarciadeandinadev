@@ -71,6 +71,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const projectsEs = [
         {
+            title: "KetoPower X - Quiz",
+            description: "Ayuda a los usuarios a descubrir si las píldoras Keto Power son adecuadas para ellos a través de un breve cuestionario sobre sus hábitos y objetivos de salud, ofreciendo resultados personalizados para apoyar su pérdida de peso.",
+            images: ["img/ketoquiz1.png", "img/ketoquiz2.png", "img/ketoquiz3.png", "img/ketoquiz4.png"],
+            languages: `
+                <p>Tecnologías empleadas:</p>
+                <ul>
+                    <li><i class="devicon-html5-plain"></i></li>
+                    <li><i class="devicon-css3-plain"></i></li>
+                    <li><i class="devicon-javascript-plain"></i></li>
+                    <li><i class="devicon-figma-plain"></i></li>
+                </ul>
+            `,
+            link: `<a href="https://charoandina.github.io/ketopowerquiz/" target=_blank>Ver proyecto</a>`
+        },
+        {
             title: "Game Over - Ecommerce",
             description: "Tienda online destinado a la venta de insumos teconológicos del mundo Gaming. Se pueden encontrar diversos productos, divididos en distintas categorías.",
             images: ["img/gameover1.png", "img/gameover2.png", "img/gameover3.png", "img/gameover4.png"],
@@ -180,6 +195,21 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
     
     const projectsEn = [
+        {
+            title: "KetoPower X - Quiz",
+            description: "It helps users discover if Keto Power pills are right for them through a short questionnaire about their health habits and goals, offering personalized results to support their weight loss.",
+            images: ["img/ketoquiz1.png", "img/ketoquiz2.png", "img/ketoquiz3.png", "img/ketoquiz4.png"],
+            languages: `
+                <p>Technologies used:</p>
+                <ul>
+                    <li><i class="devicon-html5-plain"></i></li>
+                    <li><i class="devicon-css3-plain"></i></li>
+                    <li><i class="devicon-javascript-plain"></i></li>
+                    <li><i class="devicon-figma-plain"></i></li>
+                </ul>
+            `,
+            link: `<a href="https://charoandina.github.io/ketopowerquiz/" target=_blank>View project</a>`
+        },
         {
             title: "Game Over - Ecommerce",
             description: "Online store dedicated to selling technological supplies in the gaming world. Various products can be found, divided into different categories.",

@@ -1,15 +1,3 @@
-/* CIRCLE FOLLOWING MOUSE */
-
-const circle = document.querySelector('#mousepointer');
-const circleSize = 40;
-
-document.addEventListener('mousemove', e => {
-    const mouseX = e.pageX - circleSize / 2;
-    const mouseY = e.pageY - circleSize / 2;
-
-    circle.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-});
-
 //SELECT PAGE
 
 document.addEventListener('DOMContentLoaded', function() {
